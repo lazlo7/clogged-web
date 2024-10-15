@@ -2,4 +2,4 @@
 .vscode/
 
 # Ignore real configurations.
-.nginx.conf
+nginx.conf
