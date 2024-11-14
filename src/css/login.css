@@ -36,6 +36,10 @@ body {
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1;
     border: 1px solid green;
     border-radius: 6px;
@@ -43,9 +47,29 @@ body {
     margin-bottom: 20px;
 }
 
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 21px;
+    color: black;
+}
+
 h1, .title {
     font-size: 21px;
     font-weight: lighter;
+}
+
+button {
+    font-size: 21px;
+    color: black;
 }
 
 .white {

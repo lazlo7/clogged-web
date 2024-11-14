@@ -1,2 +1,10 @@
 # Ignore .vscode.
 .vscode/
+
+# Ignore dist.
+dist/
+
+# Ignore src/js/config.js
+src/js/config.js
+
+# Ignore reload script.
